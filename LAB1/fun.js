@@ -1,19 +1,13 @@
-const f1 = () => {
-  console.log("F1");
-};
-const f2 = () => {
-  console.log("F2");
-};
-const f3 = () => {
-  console.log("F3");
-};
+// waf to take any digit (0-9) and
+// return its in word
+// 0 - One
+//5 - Five
 
-function main() {
-  console.log("main");
-  setTimeout(f1, 0);
-  // setInterval(f1, 1000);
-  setImmediate(f2);
-  f3();
-  console.log("end");
+const toWords = (digit)=>{
+    const words = ["Zero","One","Two","Three","Four"
+        ,"Five","Six","Seven","Eight","Nine"];
+    return words[digit];
 }
-main();
+console.log(toWords(5));
+console.log(toWords(3));
+console.log(toWords(6));
