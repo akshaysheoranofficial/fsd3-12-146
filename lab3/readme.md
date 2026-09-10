@@ -18,3 +18,9 @@ one of the most important module in Node.js, originally designed for building sc
 - 403 -> forbidden
 - 404 -> Not Found
 - 500 -> Internal Server Error
+
+
+### Server can send to the client
+1. html file
+2. json data
+3. 
